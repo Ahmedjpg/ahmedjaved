@@ -11,9 +11,10 @@
 }
 body {
     font-size: 2rem;
-    background-image: url(./img/background.jpg);
+    background-color: #373442;
+    /* background-image: url(./img/background.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
 }
 .contactSection {
     margin: 5% 30% auto 30%;
@@ -55,8 +56,8 @@ button {
     border-radius: 10px;
     border-style: none;
     height: 60px;
-    background: #88304e;
-    margin: 30px;
+    background: #ed4856;
+    margin: 40px 30px 10px 30px;
 }
 
 /* SUCCESS SCREEN */
@@ -66,6 +67,7 @@ p {
     font-weight: 400;
 }
 .successSection {
+    text-align: center;
     height: auto;
     margin: 20% 30% auto 30%;
     border-radius: 40px;
