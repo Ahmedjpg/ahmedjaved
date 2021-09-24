@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ahmed Javed"/>
+    <meta name="description" content="Contact Form"/>
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<section class="contactSection">
+
+    <!-- TITLE -->
+    <h2>Contact Form</h2>
+
+    <!-- FORM -->
+    <form action="./contact.php" method="post">
+
+        <!-- NAME -->
+        <div class="formStyle">
+            <input
+                type="text" 
+                name="contact_name" 
+                id="name" 
+                placeholder="Name"
+                title="Enter Your Name"
+                pattern="[A-Z\sa-z]{3,30}"
+                autofocus
+                required
+            />
+        </div>
+
+        <!-- EMAIL -->
+        <div class="formStyle">
+            <input 
+                type="text" 
+                name="email_info" 
+                id="email" 
+                placeholder="Email"
+                title="Enter Your Email"
+                required
+            />
+        </div>
+
+        <!-- SUBJECT -->
+        <div class="formStyle">
+            <input
+                type="text" 
+                name="subject" 
+                id="subject" 
+                placeholder="Subject"
+                title="Enter Your Subject"
+                required
+            />
+        </div>
+
+        <!-- MESSAGE -->
+        <div class="formStyle">
+            <textarea 
+                class="general"
+                name="message" 
+                id="msg" 
+                cols="30" 
+                rows="10"
+                placeholder="Message"
+                title="Enter Your Message"
+                required
+            ></textarea>
+        </div>
+
+        <!-- BUTTON -->
+        <button type="submit">Submit</button>
+    
+    </form>
+</section>
+</body>
+</html>

@@ -1,0 +1,118 @@
+/* GOOGLE FONT */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+
+/* CONTACT PAGE STYLES */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+body {
+    font-size: 2rem;
+    background-image: url(./img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contactSection {
+    margin: 5% 30% auto 30%;
+    border-radius: 40px;
+    padding: 30px;
+    background: rgba( 155, 155, 155, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 4px );
+}
+h2 {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+form, div {
+    text-align: center;
+}
+input, textarea {
+    width: 300px;
+    font-size: 12pt;
+    border-radius: 10px;
+    border-style: none;
+    background: white;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+}
+input {
+    height: 40px;
+}
+textarea {
+    height: 140px;
+}
+button {
+    width: 300px;
+    font-size: 18pt;
+    font-weight: 400;
+    border-radius: 10px;
+    border-style: none;
+    height: 60px;
+    background: #88304e;
+    margin: 30px;
+}
+
+/* SUCCESS SCREEN */
+p {
+    text-align: center;
+    font-size: 18pt;
+    font-weight: 400;
+}
+.successSection {
+    height: auto;
+    margin: 20% 30% auto 30%;
+    border-radius: 40px;
+    padding: 30px;
+    background: rgba( 155, 155, 155, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 4px );
+}
+.echoStyle {
+    text-align: center;
+    /* style success screen here */
+}
+
+@media only screen and (max-width: 768px) {
+
+    .contactSection {
+        margin: 5% 10%;
+        border-radius: 40px;
+        padding: 30px;
+        background: rgba( 155, 155, 155, 0.25 );
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+        backdrop-filter: blur( 10px );
+        -webkit-backdrop-filter: blur( 4px );
+    }
+    h2 {
+        font-size: 24px;
+    }
+    input, textarea {
+        width: 200px;
+        font-size: 10pt;
+        border-radius: 10px;
+        border-style: none;
+        background: white;
+        color: black;
+        margin: 5px;
+        padding: 5px;
+    }
+    button {
+        width: 200px;
+        font-size: 10pt;
+        font-weight: 400;
+        border-radius: 10px;
+        border-style: none;
+        height: 40px;
+        background: #88304e;
+        margin: 15px;
+    }
+
+}
