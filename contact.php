@@ -25,7 +25,21 @@
     if ($success === true) {
         // Display a successful message
         echo ' <link rel="stylesheet" href="style.css" type="text/css" /> ';
-        echo ( ' <p class="echoStyle">BRAVO</p> ' );
+        echo (
+            '<section class="successSection">
+
+                <!-- TITLE -->
+                <h2>Success !</h2>
+
+                <!-- SUCCESS MESSAGE -->
+                <p>Your email has been sent.</p>
+
+                <a href="./index.html">
+                    <button type="submit">Done</button>
+                </a>
+
+            </section>'
+        );
     }
     else {
         // Display an error message
